@@ -1,0 +1,12 @@
+PYSPARK WORKFLOW
+
+-   RUNNING PYSPARK CONTAINER
+
+docker run -it --rm --name pyspark-dev -v "$(pwd)":/workspace -p 4040:4040 -p 8080:8080 my-pyspark:latest bash
+
+-   EXITING THE WORKING CONTAINER
+
+At the terminal just write down the command "exit" without the quotes
+
+
+
